@@ -1,0 +1,121 @@
+:root {
+  --honeywell-red: #C41E1A;
+  --honeywell-red-muted: #D44D4D;
+  --honeywell-dark: #2D2D2D;
+  --honeywell-gray: #5A5A5A;
+  --honeywell-light-gray: #A8A8A8;
+  --honeywell-white: #FAFAFA;
+  --panel: #FAFAFA;
+  --panel-raised: #F0F0F0;
+  --hairline: #E0E0E0;
+  --paper: #2D2D2D;
+  --muted: #7A7A7A;
+  --teal: #C41E1A;
+  --amber: #E67A00;
+  --red: #C41E1A;
+  --blue: #0055AA;
+
+  --font-display: 'Segoe UI', 'Arial', sans-serif;
+  --font-mono: 'Courier New', monospace;
+  --font-body: 'Segoe UI', 'Arial', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #F0F2F4;
+  color: var(--paper);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--hairline);
+  border-radius: 4px;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--hairline);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.panel-title {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  color: var(--honeywell-dark);
+  margin: 0;
+}
+
+.panel-subtitle {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 2px 0 0;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 0em;
+  text-transform: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: #E8E8E8;
+  border: 1px solid var(--hairline);
+  white-space: nowrap;
+}
+
+.tag-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.scroll-list {
+  overflow-y: auto;
+}
+
+.empty-state {
+  color: var(--muted);
+  font-size: 13px;
+  padding: 16px 4px;
+}
+
+.error-banner {
+  color: var(--honeywell-red-muted);
+  font-size: 13px;
+  padding: 10px 12px;
+  background: #FDF2F2;
+  border-left: 3px solid var(--honeywell-red-muted);
+  border-radius: 4px;
+}

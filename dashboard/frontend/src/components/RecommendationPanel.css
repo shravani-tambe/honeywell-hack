@@ -1,0 +1,142 @@
+.recommendation-panel {
+  padding: 24px;
+}
+
+.rec-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.accuracy-badge {
+  text-align: right;
+}
+
+.accuracy-value {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--honeywell-red-muted);
+}
+
+.accuracy-label {
+  font-size: 11px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+
+.rec-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-height: 600px;
+  margin-top: 20px;
+  padding-right: 8px;
+}
+
+.rec-card {
+  background: white;
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.rec-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rec-variable {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--honeywell-dark);
+}
+
+.rec-values {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  padding: 8px 0;
+  background: #F8F8F8;
+  border-radius: 6px;
+  padding: 10px 14px;
+}
+
+.rec-arrow {
+  color: var(--muted);
+}
+
+.rec-target {
+  color: var(--honeywell-red-muted);
+  font-weight: 600;
+}
+
+.rec-reduction {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--honeywell-red-muted);
+  font-weight: 500;
+}
+
+.rec-rationale {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+}
+
+.rec-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.rec-btn {
+  flex: 1;
+  padding: 10px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--hairline);
+  background: white;
+  color: var(--honeywell-dark);
+}
+
+.rec-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.rec-btn.accept {
+  border-color: var(--honeywell-red-muted);
+  color: var(--honeywell-red-muted);
+}
+
+.rec-btn.accept:hover:not(:disabled) {
+  background: #F5F0F0;
+}
+
+.rec-btn.reject {
+  border-color: var(--muted);
+  color: var(--muted);
+}
+
+.rec-btn.reject:hover:not(:disabled) {
+  background: #F0F0F0;
+}

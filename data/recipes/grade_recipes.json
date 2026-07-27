@@ -1,0 +1,12 @@
+{
+  "_meta": {
+    "source": "Paper_Machine_Simulator_Enhanced.ipynb, PaperMachineSimulator.__init__ and run_steady_state",
+    "width": 5.0,
+    "consistency": 0.035,
+    "retention": 0.75,
+    "stock_flow_formula": "bw * speed * width / (consistency * retention * 1000)"
+  },
+  "Grade_A": {"bw": 60.0, "speed": 800.0, "steam": 60.0, "filler": 100.0, "moisture": 6.5, "ash": 10.0, "bw_spec": 0.025, "stock_flow": 9142.857},
+  "Grade_B": {"bw": 85.0, "speed": 720.0, "steam": 85.0, "filler": 150.0, "moisture": 5.8, "ash": 12.0, "bw_spec": 0.025, "stock_flow": 11657.143},
+  "Grade_C": {"bw": 120.0, "speed": 600.0, "steam": 110.0, "filler": 200.0, "moisture": 5.0, "ash": 15.0, "bw_spec": 0.025, "stock_flow": 13714.286}
+}

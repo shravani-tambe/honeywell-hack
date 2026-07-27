@@ -1,0 +1,76 @@
+.risk-panel {
+  padding: 24px;
+}
+
+.risk-readout {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 20px 0 16px;
+}
+
+.risk-value {
+  font-family: var(--font-display);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--honeywell-dark);
+}
+
+.risk-unit {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  color: var(--muted);
+}
+
+.risk-zone {
+  margin-left: auto;
+}
+
+.risk-bar {
+  position: relative;
+  height: 12px;
+  border-radius: 6px;
+  background: #E0E0E0;
+  overflow: visible;
+}
+
+.risk-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.risk-bar-tick {
+  position: absolute;
+  top: -2px;
+  width: 2px;
+  height: 14px;
+  background: var(--muted);
+}
+
+.risk-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 20px;
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--hairline);
+}
+
+.risk-meta-label {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.risk-meta-value {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  margin-top: 4px;
+  color: var(--honeywell-dark);
+}

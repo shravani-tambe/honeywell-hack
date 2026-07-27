@@ -1,0 +1,56 @@
+{
+  "scenario": "Aggressive Operator",
+  "start_grade": "Grade_A",
+  "end_grade": "Grade_C",
+  "seed": 42,
+  "transition_start_time": 600.0,
+  "stabilization_time_seconds": {
+    "raw": 672.0,
+    "assisted": 672.0,
+    "improvement": 0.0
+  },
+  "off_spec_seconds_after_transition_start": {
+    "raw": 657.0,
+    "assisted": 657.0,
+    "reduction": 0.0
+  },
+  "n_interventions_applied": 3,
+  "interventions": [
+    {
+      "suggestion_id": "663115ec-b6cd-4f18-994b-166b6d0468cc",
+      "timestamp": 1470.0,
+      "transition_id": 0,
+      "variable": "filler_flow",
+      "current_value": 200.0,
+      "recommended_value": 194.0,
+      "predicted_risk_reduction": 0.0125,
+      "rationale": "Basis weight is running above setpoint (+0.04% error). Decreasing filler_flow by 3.0% (from 200.0 to 194.0) is predicted to cut off-spec risk by 1.3 points. Backed by a discovered correlation: filler_flow 10s earlier tracks basis_weight now (r=0.81).",
+      "source": "correlation_discovery",
+      "status": "auto_applied"
+    },
+    {
+      "suggestion_id": "66ed15a3-afe4-414c-b484-2bd62aeee736",
+      "timestamp": 1590.0,
+      "transition_id": 0,
+      "variable": "filler_flow",
+      "current_value": 199.95,
+      "recommended_value": 193.95,
+      "predicted_risk_reduction": 0.0123,
+      "rationale": "Basis weight is running above setpoint (+0.01% error). Decreasing filler_flow by 3.0% (from 200.0 to 194.0) is predicted to cut off-spec risk by 1.2 points. Backed by a discovered correlation: filler_flow 10s earlier tracks basis_weight now (r=0.81).",
+      "source": "correlation_discovery",
+      "status": "auto_applied"
+    },
+    {
+      "suggestion_id": "3c205fd7-d923-420a-9b41-0d5a38d19a47",
+      "timestamp": 1710.0,
+      "transition_id": 0,
+      "variable": "filler_flow",
+      "current_value": 199.95,
+      "recommended_value": 193.95,
+      "predicted_risk_reduction": 0.0118,
+      "rationale": "Basis weight is running above setpoint (+0.04% error). Decreasing filler_flow by 3.0% (from 200.0 to 194.0) is predicted to cut off-spec risk by 1.2 points. Backed by a discovered correlation: filler_flow 10s earlier tracks basis_weight now (r=0.81).",
+      "source": "correlation_discovery",
+      "status": "auto_applied"
+    }
+  ]
+}

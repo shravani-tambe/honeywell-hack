@@ -1,0 +1,58 @@
+{
+  "target": "off_spec_risk",
+  "risk_horizon_seconds": 5,
+  "overall": {
+    "accuracy": 0.9879463155229172,
+    "balanced_accuracy": 0.988286304739005,
+    "precision": 0.9988749507790966,
+    "recall": 0.9878720445062587,
+    "f1": 0.9933430297605729,
+    "roc_auc": 0.9991517723140269,
+    "pr_auc": 0.99991697738951,
+    "n_test": 19745,
+    "positive_rate": 0.9103570524183338
+  },
+  "persistence_baseline": {
+    "accuracy": 0.8648265383641428,
+    "balanced_accuracy": 0.811920746799934,
+    "f1": 0.9219019751280175
+  },
+  "by_transition_scenario": {
+    "Disturbed Trans.": {
+      "n": 3590,
+      "accuracy": 0.9885793871866295,
+      "f1": 0.9936027461382431,
+      "positive_rate": 0.8974930362116992
+    },
+    "Normal": {
+      "n": 1795,
+      "accuracy": 0.9883008356545961,
+      "f1": 0.9935483870967742,
+      "positive_rate": 0.9125348189415042
+    },
+    "Steam Lag": {
+      "n": 3590,
+      "accuracy": 0.9880222841225627,
+      "f1": 0.9934059193375249,
+      "positive_rate": 0.9136490250696379
+    },
+    "Slow Actuator": {
+      "n": 3590,
+      "accuracy": 0.9894150417827298,
+      "f1": 0.9941949282004278,
+      "positive_rate": 0.9164345403899722
+    },
+    "Aggressive Operator": {
+      "n": 1795,
+      "accuracy": 0.9910863509749304,
+      "f1": 0.9951130116065975,
+      "positive_rate": 0.9153203342618385
+    },
+    "Recipe Mismatch": {
+      "n": 5385,
+      "accuracy": 0.9853296193129062,
+      "f1": 0.9918949420334462,
+      "positive_rate": 0.9103064066852368
+    }
+  }
+}

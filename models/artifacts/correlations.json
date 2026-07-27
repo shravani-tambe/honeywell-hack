@@ -1,0 +1,1030 @@
+{
+  "cross_correlation": [
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "dryer_temp",
+      "lag": 10,
+      "correlation": 1.0,
+      "note": "steam_pressure 10s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "steam_pressure",
+      "lag": 10,
+      "correlation": 0.998,
+      "note": "dryer_temp 10s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "dryer_temp",
+      "lag": 30,
+      "correlation": 0.995,
+      "note": "steam_pressure 30s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "filler_flow",
+      "lag": 10,
+      "correlation": -0.992,
+      "note": "machine_speed 10s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "steam_pressure",
+      "lag": 30,
+      "correlation": 0.991,
+      "note": "dryer_temp 30s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "steam_pressure",
+      "lag": 60,
+      "correlation": 0.989,
+      "note": "filler_flow 60s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "dryer_temp",
+      "lag": 60,
+      "correlation": 0.989,
+      "note": "filler_flow 60s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "filler_flow",
+      "lag": 30,
+      "correlation": -0.985,
+      "note": "machine_speed 30s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "steam_pressure",
+      "lag": 30,
+      "correlation": 0.985,
+      "note": "filler_flow 30s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "machine_speed",
+      "lag": 10,
+      "correlation": -0.983,
+      "note": "filler_flow 10s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "dryer_temp",
+      "lag": 30,
+      "correlation": 0.983,
+      "note": "filler_flow 30s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "dryer_temp",
+      "lag": 60,
+      "correlation": 0.98,
+      "note": "steam_pressure 60s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "steam_pressure",
+      "lag": 60,
+      "correlation": -0.979,
+      "note": "machine_speed 60s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "dryer_temp",
+      "lag": 60,
+      "correlation": -0.978,
+      "note": "machine_speed 60s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "steam_pressure",
+      "lag": 10,
+      "correlation": 0.974,
+      "note": "filler_flow 10s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "steam_pressure",
+      "lag": 60,
+      "correlation": 0.974,
+      "note": "dryer_temp 60s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "dryer_temp",
+      "lag": 10,
+      "correlation": 0.971,
+      "note": "filler_flow 10s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "moisture",
+      "lag": 60,
+      "correlation": -0.97,
+      "note": "dryer_temp 60s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "steam_pressure",
+      "lag": 30,
+      "correlation": -0.969,
+      "note": "machine_speed 30s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "machine_speed",
+      "lag": 30,
+      "correlation": -0.967,
+      "note": "filler_flow 30s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "filler_flow",
+      "lag": 60,
+      "correlation": -0.966,
+      "note": "machine_speed 60s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "dryer_temp",
+      "lag": 30,
+      "correlation": -0.966,
+      "note": "machine_speed 30s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "moisture",
+      "lag": 30,
+      "correlation": -0.959,
+      "note": "dryer_temp 30s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "filler_flow",
+      "lag": 10,
+      "correlation": 0.955,
+      "note": "steam_pressure 10s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "steam_pressure",
+      "lag": 10,
+      "correlation": -0.954,
+      "note": "machine_speed 10s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "filler_flow",
+      "lag": 10,
+      "correlation": 0.95,
+      "note": "dryer_temp 10s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "dryer_temp",
+      "lag": 10,
+      "correlation": -0.949,
+      "note": "machine_speed 10s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "moisture",
+      "lag": 10,
+      "correlation": -0.946,
+      "note": "dryer_temp 10s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "machine_speed",
+      "lag": 60,
+      "correlation": -0.941,
+      "note": "filler_flow 60s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "filler_flow",
+      "lag": 30,
+      "correlation": 0.933,
+      "note": "steam_pressure 30s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "machine_speed",
+      "lag": 10,
+      "correlation": -0.93,
+      "note": "steam_pressure 10s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "dryer_temp",
+      "lag": 10,
+      "correlation": -0.929,
+      "note": "moisture 10s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "filler_flow",
+      "lag": 30,
+      "correlation": 0.928,
+      "note": "dryer_temp 30s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "machine_speed",
+      "lag": 10,
+      "correlation": -0.925,
+      "note": "dryer_temp 10s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "moisture",
+      "lag": 60,
+      "correlation": -0.912,
+      "note": "filler_flow 60s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "machine_speed",
+      "lag": 30,
+      "correlation": -0.909,
+      "note": "steam_pressure 30s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "dryer_temp",
+      "lag": 30,
+      "correlation": -0.909,
+      "note": "moisture 30s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "filler_flow",
+      "lag": 60,
+      "correlation": 0.903,
+      "note": "steam_pressure 60s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "machine_speed",
+      "lag": 30,
+      "correlation": -0.903,
+      "note": "dryer_temp 30s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "filler_flow",
+      "lag": 60,
+      "correlation": 0.897,
+      "note": "dryer_temp 60s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "moisture",
+      "lag": 60,
+      "correlation": 0.888,
+      "note": "machine_speed 60s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "moisture",
+      "lag": 30,
+      "correlation": -0.879,
+      "note": "filler_flow 30s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "machine_speed",
+      "lag": 60,
+      "correlation": -0.879,
+      "note": "steam_pressure 60s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "dryer_temp",
+      "lag": 60,
+      "correlation": -0.876,
+      "note": "moisture 60s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "machine_speed",
+      "lag": 60,
+      "correlation": -0.873,
+      "note": "dryer_temp 60s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "moisture",
+      "lag": 10,
+      "correlation": -0.852,
+      "note": "filler_flow 10s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "moisture",
+      "lag": 30,
+      "correlation": 0.851,
+      "note": "machine_speed 30s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "basis_weight",
+      "lag": 30,
+      "correlation": -0.824,
+      "note": "machine_speed 30s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "filler_flow",
+      "lag": 10,
+      "correlation": -0.823,
+      "note": "moisture 10s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "moisture",
+      "lag": 10,
+      "correlation": 0.823,
+      "note": "machine_speed 10s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "basis_weight",
+      "lag": 10,
+      "correlation": -0.818,
+      "note": "machine_speed 10s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "basis_weight",
+      "lag": 10,
+      "correlation": 0.814,
+      "note": "filler_flow 10s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "basis_weight",
+      "lag": 60,
+      "correlation": -0.814,
+      "note": "machine_speed 60s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "basis_weight",
+      "lag": 30,
+      "correlation": 0.812,
+      "note": "filler_flow 30s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "steam_pressure",
+      "lag": 10,
+      "correlation": 0.808,
+      "note": "basis_weight 10s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "steam_pressure",
+      "lag": 30,
+      "correlation": 0.808,
+      "note": "basis_weight 30s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "dryer_temp",
+      "lag": 30,
+      "correlation": 0.808,
+      "note": "basis_weight 30s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "dryer_temp",
+      "lag": 10,
+      "correlation": 0.807,
+      "note": "basis_weight 10s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "dryer_temp",
+      "lag": 60,
+      "correlation": 0.801,
+      "note": "basis_weight 60s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "filler_flow",
+      "lag": 10,
+      "correlation": 0.8,
+      "note": "basis_weight 10s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "basis_weight",
+      "lag": 10,
+      "correlation": 0.8,
+      "note": "steam_pressure 10s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "steam_pressure",
+      "lag": 60,
+      "correlation": 0.8,
+      "note": "basis_weight 60s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "basis_weight",
+      "lag": 10,
+      "correlation": 0.797,
+      "note": "dryer_temp 10s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "basis_weight",
+      "lag": 60,
+      "correlation": 0.796,
+      "note": "filler_flow 60s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "machine_speed",
+      "lag": 10,
+      "correlation": -0.796,
+      "note": "basis_weight 10s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "filler_flow",
+      "lag": 30,
+      "correlation": -0.796,
+      "note": "moisture 30s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "machine_speed",
+      "lag": 10,
+      "correlation": 0.794,
+      "note": "moisture 10s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "basis_weight",
+      "lag": 30,
+      "correlation": 0.784,
+      "note": "steam_pressure 30s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "filler_flow",
+      "lag": 30,
+      "correlation": 0.782,
+      "note": "basis_weight 30s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "basis_weight",
+      "lag": 30,
+      "correlation": 0.781,
+      "note": "dryer_temp 30s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "machine_speed",
+      "lag": 30,
+      "correlation": -0.776,
+      "note": "basis_weight 30s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "machine_speed",
+      "lag": 30,
+      "correlation": 0.77,
+      "note": "moisture 30s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "moisture",
+      "lag": 60,
+      "correlation": -0.765,
+      "note": "basis_weight 60s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "filler_flow",
+      "lag": 60,
+      "correlation": -0.762,
+      "note": "moisture 60s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "basis_weight",
+      "lag": 60,
+      "correlation": 0.761,
+      "note": "steam_pressure 60s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "basis_weight",
+      "lag": 60,
+      "correlation": 0.756,
+      "note": "dryer_temp 60s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "filler_flow",
+      "lag": 60,
+      "correlation": 0.754,
+      "note": "basis_weight 60s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "moisture",
+      "lag": 30,
+      "correlation": -0.747,
+      "note": "basis_weight 30s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "machine_speed",
+      "lag": 60,
+      "correlation": -0.746,
+      "note": "basis_weight 60s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "machine_speed",
+      "lag": 60,
+      "correlation": 0.738,
+      "note": "moisture 60s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "basis_weight",
+      "variable_b": "moisture",
+      "lag": 10,
+      "correlation": -0.73,
+      "note": "basis_weight 10s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "basis_weight",
+      "lag": 10,
+      "correlation": -0.709,
+      "note": "moisture 10s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "basis_weight",
+      "lag": 30,
+      "correlation": -0.687,
+      "note": "moisture 30s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "basis_weight",
+      "lag": 60,
+      "correlation": -0.659,
+      "note": "moisture 60s earlier tracks basis_weight now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "stock_flow",
+      "lag": 10,
+      "correlation": -0.645,
+      "note": "machine_speed 10s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "stock_flow",
+      "lag": 10,
+      "correlation": 0.642,
+      "note": "filler_flow 10s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "filler_flow",
+      "lag": 10,
+      "correlation": 0.641,
+      "note": "stock_flow 10s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "stock_flow",
+      "lag": 30,
+      "correlation": -0.64,
+      "note": "machine_speed 30s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "machine_speed",
+      "lag": 10,
+      "correlation": -0.636,
+      "note": "stock_flow 10s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "steam_pressure",
+      "lag": 30,
+      "correlation": 0.636,
+      "note": "stock_flow 30s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "dryer_temp",
+      "lag": 30,
+      "correlation": 0.635,
+      "note": "stock_flow 30s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "dryer_temp",
+      "lag": 60,
+      "correlation": 0.635,
+      "note": "stock_flow 60s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "stock_flow",
+      "lag": 30,
+      "correlation": 0.634,
+      "note": "filler_flow 30s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "steam_pressure",
+      "lag": 60,
+      "correlation": 0.634,
+      "note": "stock_flow 60s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "steam_pressure",
+      "lag": 10,
+      "correlation": 0.631,
+      "note": "stock_flow 10s earlier tracks steam_pressure now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "filler_flow",
+      "lag": 30,
+      "correlation": 0.63,
+      "note": "stock_flow 30s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "dryer_temp",
+      "lag": 10,
+      "correlation": 0.629,
+      "note": "stock_flow 10s earlier tracks dryer_temp now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "machine_speed",
+      "variable_b": "stock_flow",
+      "lag": 60,
+      "correlation": -0.628,
+      "note": "machine_speed 60s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "stock_flow",
+      "lag": 10,
+      "correlation": 0.62,
+      "note": "steam_pressure 10s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "filler_flow",
+      "variable_b": "stock_flow",
+      "lag": 60,
+      "correlation": 0.619,
+      "note": "filler_flow 60s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "machine_speed",
+      "lag": 30,
+      "correlation": -0.619,
+      "note": "stock_flow 30s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "stock_flow",
+      "lag": 10,
+      "correlation": 0.617,
+      "note": "dryer_temp 10s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "filler_flow",
+      "lag": 60,
+      "correlation": 0.609,
+      "note": "stock_flow 60s earlier tracks filler_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "stock_flow",
+      "lag": 30,
+      "correlation": 0.608,
+      "note": "steam_pressure 30s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "stock_flow",
+      "lag": 30,
+      "correlation": 0.605,
+      "note": "dryer_temp 30s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "machine_speed",
+      "lag": 60,
+      "correlation": -0.595,
+      "note": "stock_flow 60s earlier tracks machine_speed now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "moisture",
+      "lag": 60,
+      "correlation": -0.594,
+      "note": "stock_flow 60s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "steam_pressure",
+      "variable_b": "stock_flow",
+      "lag": 60,
+      "correlation": 0.59,
+      "note": "steam_pressure 60s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "dryer_temp",
+      "variable_b": "stock_flow",
+      "lag": 60,
+      "correlation": 0.587,
+      "note": "dryer_temp 60s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "moisture",
+      "lag": 30,
+      "correlation": -0.576,
+      "note": "stock_flow 30s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "stock_flow",
+      "variable_b": "moisture",
+      "lag": 10,
+      "correlation": -0.56,
+      "note": "stock_flow 10s earlier tracks moisture now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "stock_flow",
+      "lag": 10,
+      "correlation": -0.544,
+      "note": "moisture 10s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "stock_flow",
+      "lag": 30,
+      "correlation": -0.53,
+      "note": "moisture 30s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    },
+    {
+      "variable_a": "moisture",
+      "variable_b": "stock_flow",
+      "lag": 60,
+      "correlation": -0.51,
+      "note": "moisture 60s earlier tracks stock_flow now",
+      "source": "cross_correlation"
+    }
+  ],
+  "model_importance": [
+    {
+      "variable_a": "machine_speed_lag10",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0188,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    },
+    {
+      "variable_a": "basis_weight_roll_mean_30",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0155,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    },
+    {
+      "variable_a": "basis_weight_roll_std_30",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0149,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    },
+    {
+      "variable_a": "basis_weight_roll_std_60",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0108,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    },
+    {
+      "variable_a": "machine_speed_lag60",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0099,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    },
+    {
+      "variable_a": "stock_flow_lag60",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0095,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    },
+    {
+      "variable_a": "stock_flow_lag10",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0086,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    },
+    {
+      "variable_a": "basis_weight_roll_mean_60",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0081,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    },
+    {
+      "variable_a": "stock_flow_roc",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0081,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    },
+    {
+      "variable_a": "stock_flow_lag30",
+      "variable_b": "off_spec_risk",
+      "lag": 0,
+      "correlation": 0.0066,
+      "note": "risk-model feature importance, not raw input the recipe defines",
+      "source": "model_importance"
+    }
+  ],
+  "scenario_deviation_summary": [
+    {
+      "transition_scenario": "Aggressive Operator",
+      "mean_deviation_pct": 9.44,
+      "max_deviation_pct": 110.84
+    },
+    {
+      "transition_scenario": "Disturbed Trans.",
+      "mean_deviation_pct": 11.92,
+      "max_deviation_pct": 124.91
+    },
+    {
+      "transition_scenario": "Normal",
+      "mean_deviation_pct": 11.16,
+      "max_deviation_pct": 102.79
+    },
+    {
+      "transition_scenario": "Recipe Mismatch",
+      "mean_deviation_pct": 25.28,
+      "max_deviation_pct": 303.3
+    },
+    {
+      "transition_scenario": "Slow Actuator",
+      "mean_deviation_pct": 11.3,
+      "max_deviation_pct": 105.3
+    },
+    {
+      "transition_scenario": "Steam Lag",
+      "mean_deviation_pct": 11.25,
+      "max_deviation_pct": 114.7
+    }
+  ]
+}
